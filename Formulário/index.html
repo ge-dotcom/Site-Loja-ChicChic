@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+    <main>
+        <section>
+    <h1>Formulário de Contato</h1>
+    </section>
+
+    <section>
+        <h2>Cadrasto de Cliente</h2>
+        <form id="formulario">
+            <label for="nome">
+                Nome:
+            </label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="Telefone">
+                Telefone:
+            </label>
+            <input type="text" id="telefone" name="telefone" required>
+
+            <label for="nome">
+                E-mail:
+            </label>
+            <input type="text" id="email" name="email" required>
+
+            <button type="submit">Cadastrar</button>
+            <div id="feedback" aria-live="polite" style="margin-top:8px;color:green;"></div>
+        </form>
+    </section>
+    </main>
+
+     </header>
+
+     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+     <script src="script.js"></script>
+</body>
+</html>

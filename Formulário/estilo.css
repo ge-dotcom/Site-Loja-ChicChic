@@ -1,0 +1,41 @@
+form{
+    max-width: 500px;
+    background-color: grey;
+    padding: 30px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+label{
+    display: block; /* Cada label ocupa linha completa */ 
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button{
+    margin-top: 20px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: aqua;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+button:hover{
+    background-color: darkgrey;
+    transform: translateY(-2px); /* move o botão dois pixels para cima, criando a sensação de elevação */
+    box-shadow: o 4px 10px rgb(109, 106, 106);
+}
+
+button:active{
+    transform: translateY(0);
+    box-shadow: none;
+}
